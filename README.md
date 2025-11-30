@@ -30,7 +30,7 @@
 
 1. **Клонируйте репозиторий:**
 ```bash
-git clone <your-repo-url>
+git clone 
 cd <project-directory>
 ```
 2. **Настройте переменные окружения:**
