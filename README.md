@@ -139,19 +139,15 @@ C:.
 
 │               xgboost_model.pkl    # Сохраненная модель
 
+│
 └───frontend
-
+    │ 
     │   Dockerfile
-    
     │   package.json
-    
     │   vite.config.js
-    
     └───src
-    
-        │   App.vue        # Основной компонент
-        
-        │   main.js        # Точка входа Vue
-        
-        └───router
-                index.js   # Маршрутизация Vue Router
+    │ 
+    │   App.vue        # Основной компонент
+    │   main.js        # Точка входа Vue
+    └───router
+            index.js   # Маршрутизация Vue Router
