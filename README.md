@@ -113,31 +113,45 @@ C:.
 │   .env-sample            # Шаблон переменных окружения
 
 │   .gitignore
+
 │   docker-compose.yml     # Конфигурация Docker Compose
+
 │   README.md
-│
+
 ├───backend
+
 │   │   Dockerfile
+
 │   │   hackathon_income_test.csv    # Тестовые данные
+
 │   │   hackathon_income_train.csv   # Тренировочные данные
+
 │   │   requirements.txt
+
 │   │   submission_wmae_35069.csv    # Результаты модели
-│   │
+
 │   └───src
 │       │   main.py        # Основное FastAPI приложение
+
 │       │   model.py       # ML модель и обучение
-│       │
+
 │       └───models
+
 │               xgboost_model.pkl    # Сохраненная модель
-│
+
 └───frontend
+
     │   Dockerfile
+    
     │   package.json
+    
     │   vite.config.js
-    │
+    
     └───src
+    
         │   App.vue        # Основной компонент
+        
         │   main.js        # Точка входа Vue
-        │
+        
         └───router
                 index.js   # Маршрутизация Vue Router
